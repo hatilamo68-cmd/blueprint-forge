@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "blueprintforge",
+  "version": "${version}",
+  "name": "Blueprint Forge",
+  "description": "Client-only survival blueprint imports, previews, placement planning and walking.",
+  "authors": ["Blueprint Forge contributors"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.blueprintforge.client.BlueprintClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
